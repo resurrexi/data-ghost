@@ -1,0 +1,43 @@
+body { padding-top: 50px }
+@media screen and (max-width: 768px) {
+    body { padding-top: 45px }
+}
+hr { margin: 30px }
+
+.table-row-subtotal { background-color: #f2f2f2 }
+.table-row-total { font-weight: bold; border-top: 3px solid #ccc; background-color: #e6e6e6 }
+.table > tfoot { border-top: 3px solid #ddd }
+.table-div { overflow-x: auto }
+
+/* footer { background-color: #264d73; color: #e6e6e6; }
+footer a:link, footer a:visited { color: #66ccff; } */
+.jumbotron { background-color: #264d73; color: #e6e6e6 }
+.lead { font-size: 21px }
+
+.feature-div { text-align: center; padding-top: 100px; padding-bottom: 100px }
+@media screen and (max-width: 768px) {
+    .feature-div { padding-top: 40px; padding-bottom: 40px }
+}
+
+.half-rule { margin: 40px auto; width: 200px }
+.foot-heavy { font-weight: bold }
+
+#map { height: 300px }
+
+/*styling for pycourse navmenu*/
+#navmenu { position: fixed; height: 300px; overflow-y: auto }
+@media screen and (max-width: 992px) {
+    #navmenu { display: none }
+}
+
+/*styling for ghost*/
+a:hover { text-decoration: none }
+.pull-right { float: right; width: 50%; text-align: right }
+.pull-left { float: left; width: 50%; text-align: left }
+.index-title { text-align: center }
+.tag-header { text-align: center }
+.post-title > a { color: #333 }
+a.read-more { color: #737373 }
+.post-excerpt { font-size: 1.2em }
+section.post-excerpt { padding-top: 10px }
+section.post-content { padding-top: 10px }
