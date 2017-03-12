@@ -1,9 +1,9 @@
 # Data Ghost
 
 ## Introduction
-The **Data Ghost** Theme is a minimalistic theme built for the Ghost blogging platform. This theme is ideal for data scientists who want to blog about their data journey. One of the benefits of using this theme is that it makes tables responsive.
+The **Data Ghost** Theme is a minimalistic theme built for the Ghost blogging platform. This theme is ideal for data scientists who want to blog about their data journey. One of the benefits of using this theme is that it makes tables responsive, parses CSV files with [PapaParse](http://papaparse.com/), and embeds charts using [HighCharts](http://www.highcharts.com/).
 
-This theme supports code highlighting and tagging.
+This theme supports code highlighting, tagging, and LaTEX.
 
 ### Updates
 - v1.0.0 (2017-03-12)   
@@ -13,7 +13,7 @@ This theme supports code highlighting and tagging.
 Use [prismjs](http://prismjs.com/download.html) for syntax highlighting.  
 in your blog symply surround code block with:
 
-\```language-bash  
+\```language-bash
 
 
 ## Installation
