@@ -18,11 +18,11 @@ in your blog symply surround code block with:
 
 ## Installation
 
-- Download the [Theme](https://github.com/oscarmorrison/oscar-ghost/archive/master.zip) .zip
+- Download the [Theme](https://github.com/resurrexi/data-ghost/archive/master.zip) .zip
 - Install the Theme ([Instructions](http://support.ghost.org/switch-themes/)]
     - Unzip the folder and upload to 'ghost/content/themes'
     - Restart ghost and log in
-    - Go to settings > themes and select Upholsterygeist
+    - Go to settings > themes and select data-ghost
 
 ### Cost
 
