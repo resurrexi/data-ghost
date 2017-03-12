@@ -7,16 +7,14 @@ This theme supports code highlighting, tagging, and LaTEX.
 
 Looking for a [demo](https://blog.pursuitofzen.com/)?
 
-### Updates
-- v1.0.0 (2017-03-12)   
-  Initial release
+## Code Syntax Highlighting
+Highlight your code with:
 
-### Code Syntax Highlighting
-Use [prismjs](http://prismjs.com/download.html) for syntax highlighting.  
-in your blog symply surround code block with:
-
-\```language-bash
-
+    ```language-bash
+    ...
+    your code
+    ...
+    ```
 
 ## Installation
 
@@ -26,13 +24,13 @@ in your blog symply surround code block with:
     - Restart ghost and log in
     - Go to settings > themes and select data-ghost
 
-### Cost
+## Cost
 
 Free to use. If you insist on making a [donation](https://www.paypal.me/resurrexi), then I won't stop you.
 
 ## Author
 
-**Liquan Yang**
+**[Liquan Yang](https://github.com/resurrexi)**
 
 ## License
 
