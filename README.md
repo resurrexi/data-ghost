@@ -5,6 +5,8 @@ The **Data Ghost** Theme is a minimalistic theme built for the Ghost blogging pl
 
 This theme supports code highlighting, tagging, and LaTEX.
 
+Looking for a [demo](https://blog.pursuitofzen.com/)?
+
 ### Updates
 - v1.0.0 (2017-03-12)   
   Initial release
