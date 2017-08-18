@@ -41,3 +41,4 @@ a.read-more { color: #737373 }
 .post-excerpt { font-size: 1.2em }
 section.post-excerpt { padding-top: 10px }
 section.post-content { padding-top: 10px }
+#pagination { text-align: center }
