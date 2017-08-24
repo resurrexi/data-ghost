@@ -1,13 +1,21 @@
 <div class="row row-content">
-    <div class="col-sm-8 col-sm-offset-2" id="pagination">
-        <nav class="pagination" role="navigation">
+    <div class="col-sm-8 col-sm-offset-2">
+        <div class="ghost-pagination">
             {{#if prev}}
-                <a class="newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a>
+                <div class="col-sm-3" id="new-posts">
+                    <a class="newer-posts" href="{{page_url prev}}">&larr; Newer Posts</a>
+                </div>
+            {{else}}
+                <div class="col-sm-3"></div>
             {{/if}}
-            <span class="page-number">Page {{page}} of {{pages}}</span>
+            <div class="col-sm-6" id="pagination">
+                <span class="page-number">Page {{page}} of {{pages}}</span>
+            </div>
             {{#if next}}
-                <a class="older-posts" href="{{page_url next}}">Older Posts &rarr;</a>
+                <div class="col-sm-3" id="old-posts">
+                    <a class="older-posts" href="{{page_url next}}">Older Posts &rarr;</a>
+                </div>
             {{/if}}
-        </nav>
+        </div>
     </div>
 </div>
